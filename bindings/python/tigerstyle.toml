@@ -1,0 +1,4 @@
+select = ["ALL"]
+
+[extend-per-file-ignores]
+"src/objects.zig" = ["TS019", "TS051"]

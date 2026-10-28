@@ -1,0 +1,4 @@
+select = ["ALL"]
+
+[extend-per-file-ignores]
+"tools/wasi_run.mjs" = ["TS032", "TS037"]

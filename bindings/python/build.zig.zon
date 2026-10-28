@@ -1,0 +1,16 @@
+.{
+    .name = .json_zig_python,
+    .version = "0.1.0",
+    .minimum_zig_version = "0.17.0",
+    .fingerprint = 0x6c443f5aa0f80ed2,
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "tests",
+    },
+    .dependencies = .{
+        .json = .{ .path = "../.." },
+        .lacuna = .{ .path = "../../../lacuna" },
+    },
+}
