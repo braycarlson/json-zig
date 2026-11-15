@@ -1,0 +1,49 @@
+indent-width = 4
+line-length = 100
+src = ["."]
+target-version = "py311"
+
+exclude = [
+    ".git",
+    ".ruff_cache",
+    ".tigerstyle_cache",
+    ".zig-cache",
+    "__pycache__",
+    "cache",
+    "zig-out",
+]
+
+[format]
+indent-style = "space"
+quote-style = "single"
+
+[lint]
+select = ["ALL"]
+ignore = [
+    "COM812",
+    "CPY001",
+    "D",
+    "I001",
+    "ISC001",
+    "SIM102",
+    "UP035",
+]
+
+[lint.flake8-quotes]
+inline-quotes = "single"
+
+[lint.pylint]
+max-args = 18
+
+[lint.per-file-ignores]
+"build.py" = [
+    "S311",
+    "S603",
+]
+"drivers/**" = [
+    "INP001",
+]
+"run.py" = [
+    "S311",
+    "S603",
+]

@@ -1,0 +1,53 @@
+indent-width = 4
+line-length = 100
+src = ["backend", "tests"]
+target-version = "py311"
+
+exclude = [
+    ".git",
+    ".ruff_cache",
+    ".tigerstyle_cache",
+    ".zig-cache",
+    "__pycache__",
+    "zig-out",
+]
+
+[format]
+indent-style = "space"
+quote-style = "single"
+
+[lint]
+select = ["ALL"]
+ignore = [
+    "COM812",
+    "CPY001",
+    "D",
+    "I001",
+    "ISC001",
+    "SIM102",
+    "UP035",
+]
+
+[lint.flake8-quotes]
+inline-quotes = "single"
+
+[lint.pylint]
+max-args = 18
+
+[lint.per-file-ignores]
+"tests/**" = [
+    "INP001",
+    "PLR2004",
+    "S101",
+    "S301",
+    "S311",
+    "S603",
+    "SLF001",
+]
+"backend/**" = [
+    "S603",
+]
+"tools/**" = [
+    "INP001",
+    "S603",
+]

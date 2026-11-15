@@ -1,0 +1,305 @@
+workload,implementation,variant,language,case,outcome,returncode
+decode,json-zig,ReleaseFast,Zig,skipped_bracket,rejected,1
+decode,json-zig,ReleaseFast,Zig,skipped_control,rejected,1
+decode,json-zig,ReleaseFast,Zig,skipped_literal,rejected,1
+decode,json-zig,ReleaseFast,Zig,skipped_number,rejected,1
+decode,json-zig,ReleaseFast,Zig,skipped_utf8,rejected,1
+decode,json-zig,ReleaseFast,Zig,string_surrogate,rejected,1
+decode,json-zig,ReleaseFast,Zig,string_utf8,rejected,1
+decode,json-zig,ReleaseFast,Zig,trailing,rejected,1
+document,json-zig,ReleaseFast,Zig,skipped_bracket,rejected,1
+document,json-zig,ReleaseFast,Zig,skipped_control,rejected,1
+document,json-zig,ReleaseFast,Zig,skipped_literal,rejected,1
+document,json-zig,ReleaseFast,Zig,skipped_number,rejected,1
+document,json-zig,ReleaseFast,Zig,skipped_utf8,rejected,1
+document,json-zig,ReleaseFast,Zig,string_surrogate,rejected,1
+document,json-zig,ReleaseFast,Zig,string_utf8,rejected,1
+document,json-zig,ReleaseFast,Zig,trailing,rejected,1
+tokenize,json-zig,ReleaseFast,Zig,skipped_bracket,rejected,1
+tokenize,json-zig,ReleaseFast,Zig,skipped_control,rejected,1
+tokenize,json-zig,ReleaseFast,Zig,skipped_literal,rejected,1
+tokenize,json-zig,ReleaseFast,Zig,skipped_number,rejected,1
+tokenize,json-zig,ReleaseFast,Zig,skipped_utf8,rejected,1
+tokenize,json-zig,ReleaseFast,Zig,string_surrogate,rejected,1
+tokenize,json-zig,ReleaseFast,Zig,string_utf8,rejected,1
+tokenize,json-zig,ReleaseFast,Zig,trailing,rejected,1
+decode,json-zig,ReleaseSafe,Zig,skipped_bracket,rejected,1
+decode,json-zig,ReleaseSafe,Zig,skipped_control,rejected,1
+decode,json-zig,ReleaseSafe,Zig,skipped_literal,rejected,1
+decode,json-zig,ReleaseSafe,Zig,skipped_number,rejected,1
+decode,json-zig,ReleaseSafe,Zig,skipped_utf8,rejected,1
+decode,json-zig,ReleaseSafe,Zig,string_surrogate,rejected,1
+decode,json-zig,ReleaseSafe,Zig,string_utf8,rejected,1
+decode,json-zig,ReleaseSafe,Zig,trailing,rejected,1
+document,json-zig,ReleaseSafe,Zig,skipped_bracket,rejected,1
+document,json-zig,ReleaseSafe,Zig,skipped_control,rejected,1
+document,json-zig,ReleaseSafe,Zig,skipped_literal,rejected,1
+document,json-zig,ReleaseSafe,Zig,skipped_number,rejected,1
+document,json-zig,ReleaseSafe,Zig,skipped_utf8,rejected,1
+document,json-zig,ReleaseSafe,Zig,string_surrogate,rejected,1
+document,json-zig,ReleaseSafe,Zig,string_utf8,rejected,1
+document,json-zig,ReleaseSafe,Zig,trailing,rejected,1
+tokenize,json-zig,ReleaseSafe,Zig,skipped_bracket,rejected,1
+tokenize,json-zig,ReleaseSafe,Zig,skipped_control,rejected,1
+tokenize,json-zig,ReleaseSafe,Zig,skipped_literal,rejected,1
+tokenize,json-zig,ReleaseSafe,Zig,skipped_number,rejected,1
+tokenize,json-zig,ReleaseSafe,Zig,skipped_utf8,rejected,1
+tokenize,json-zig,ReleaseSafe,Zig,string_surrogate,rejected,1
+tokenize,json-zig,ReleaseSafe,Zig,string_utf8,rejected,1
+tokenize,json-zig,ReleaseSafe,Zig,trailing,rejected,1
+decode,json-zig,"ReleaseSafe, x86-64 baseline",Zig,skipped_bracket,rejected,1
+decode,json-zig,"ReleaseSafe, x86-64 baseline",Zig,skipped_control,rejected,1
+decode,json-zig,"ReleaseSafe, x86-64 baseline",Zig,skipped_literal,rejected,1
+decode,json-zig,"ReleaseSafe, x86-64 baseline",Zig,skipped_number,rejected,1
+decode,json-zig,"ReleaseSafe, x86-64 baseline",Zig,skipped_utf8,rejected,1
+decode,json-zig,"ReleaseSafe, x86-64 baseline",Zig,string_surrogate,rejected,1
+decode,json-zig,"ReleaseSafe, x86-64 baseline",Zig,string_utf8,rejected,1
+decode,json-zig,"ReleaseSafe, x86-64 baseline",Zig,trailing,rejected,1
+document,json-zig,"ReleaseSafe, x86-64 baseline",Zig,skipped_bracket,rejected,1
+document,json-zig,"ReleaseSafe, x86-64 baseline",Zig,skipped_control,rejected,1
+document,json-zig,"ReleaseSafe, x86-64 baseline",Zig,skipped_literal,rejected,1
+document,json-zig,"ReleaseSafe, x86-64 baseline",Zig,skipped_number,rejected,1
+document,json-zig,"ReleaseSafe, x86-64 baseline",Zig,skipped_utf8,rejected,1
+document,json-zig,"ReleaseSafe, x86-64 baseline",Zig,string_surrogate,rejected,1
+document,json-zig,"ReleaseSafe, x86-64 baseline",Zig,string_utf8,rejected,1
+document,json-zig,"ReleaseSafe, x86-64 baseline",Zig,trailing,rejected,1
+tokenize,json-zig,"ReleaseSafe, x86-64 baseline",Zig,skipped_bracket,rejected,1
+tokenize,json-zig,"ReleaseSafe, x86-64 baseline",Zig,skipped_control,rejected,1
+tokenize,json-zig,"ReleaseSafe, x86-64 baseline",Zig,skipped_literal,rejected,1
+tokenize,json-zig,"ReleaseSafe, x86-64 baseline",Zig,skipped_number,rejected,1
+tokenize,json-zig,"ReleaseSafe, x86-64 baseline",Zig,skipped_utf8,rejected,1
+tokenize,json-zig,"ReleaseSafe, x86-64 baseline",Zig,string_surrogate,rejected,1
+tokenize,json-zig,"ReleaseSafe, x86-64 baseline",Zig,string_utf8,rejected,1
+tokenize,json-zig,"ReleaseSafe, x86-64 baseline",Zig,trailing,rejected,1
+decode,std.json,ReleaseFast,Zig,skipped_bracket,rejected,1
+decode,std.json,ReleaseFast,Zig,skipped_control,rejected,1
+decode,std.json,ReleaseFast,Zig,skipped_literal,rejected,1
+decode,std.json,ReleaseFast,Zig,skipped_number,rejected,1
+decode,std.json,ReleaseFast,Zig,skipped_utf8,rejected,1
+decode,std.json,ReleaseFast,Zig,string_surrogate,rejected,1
+decode,std.json,ReleaseFast,Zig,string_utf8,rejected,1
+decode,std.json,ReleaseFast,Zig,trailing,rejected,1
+document,std.json,ReleaseFast,Zig,skipped_bracket,rejected,1
+document,std.json,ReleaseFast,Zig,skipped_control,rejected,1
+document,std.json,ReleaseFast,Zig,skipped_literal,rejected,1
+document,std.json,ReleaseFast,Zig,skipped_number,rejected,1
+document,std.json,ReleaseFast,Zig,skipped_utf8,rejected,1
+document,std.json,ReleaseFast,Zig,string_surrogate,rejected,1
+document,std.json,ReleaseFast,Zig,string_utf8,rejected,1
+document,std.json,ReleaseFast,Zig,trailing,rejected,1
+tokenize,std.json,ReleaseFast,Zig,skipped_bracket,rejected,1
+tokenize,std.json,ReleaseFast,Zig,skipped_control,rejected,1
+tokenize,std.json,ReleaseFast,Zig,skipped_literal,rejected,1
+tokenize,std.json,ReleaseFast,Zig,skipped_number,rejected,1
+tokenize,std.json,ReleaseFast,Zig,skipped_utf8,rejected,1
+tokenize,std.json,ReleaseFast,Zig,string_surrogate,rejected,1
+tokenize,std.json,ReleaseFast,Zig,string_utf8,rejected,1
+tokenize,std.json,ReleaseFast,Zig,trailing,rejected,1
+decode,Glaze,GCC,C++,skipped_bracket,rejected,1
+decode,Glaze,GCC,C++,skipped_control,rejected,1
+decode,Glaze,GCC,C++,skipped_literal,rejected,1
+decode,Glaze,GCC,C++,skipped_number,rejected,1
+decode,Glaze,GCC,C++,skipped_utf8,rejected,1
+decode,Glaze,GCC,C++,string_surrogate,rejected,1
+decode,Glaze,GCC,C++,string_utf8,rejected,1
+decode,Glaze,GCC,C++,trailing,rejected,1
+document,RapidJSON,GCC,C++,skipped_bracket,rejected,1
+document,RapidJSON,GCC,C++,skipped_control,rejected,1
+document,RapidJSON,GCC,C++,skipped_literal,rejected,1
+document,RapidJSON,GCC,C++,skipped_number,rejected,1
+document,RapidJSON,GCC,C++,skipped_utf8,rejected,1
+document,RapidJSON,GCC,C++,string_surrogate,rejected,1
+document,RapidJSON,GCC,C++,string_utf8,rejected,1
+document,RapidJSON,GCC,C++,trailing,rejected,1
+decode,simdjson,GCC,C++,skipped_bracket,accepted,0
+decode,simdjson,GCC,C++,skipped_control,rejected,1
+decode,simdjson,GCC,C++,skipped_literal,accepted,0
+decode,simdjson,GCC,C++,skipped_number,accepted,0
+decode,simdjson,GCC,C++,skipped_utf8,rejected,1
+decode,simdjson,GCC,C++,string_surrogate,rejected,1
+decode,simdjson,GCC,C++,string_utf8,rejected,1
+decode,simdjson,GCC,C++,trailing,rejected,1
+document,simdjson,GCC,C++,skipped_bracket,rejected,1
+document,simdjson,GCC,C++,skipped_control,rejected,1
+document,simdjson,GCC,C++,skipped_literal,rejected,1
+document,simdjson,GCC,C++,skipped_number,rejected,1
+document,simdjson,GCC,C++,skipped_utf8,rejected,1
+document,simdjson,GCC,C++,string_surrogate,rejected,1
+document,simdjson,GCC,C++,string_utf8,rejected,1
+document,simdjson,GCC,C++,trailing,rejected,1
+document,yyjson,GCC,C++,skipped_bracket,rejected,1
+document,yyjson,GCC,C++,skipped_control,rejected,1
+document,yyjson,GCC,C++,skipped_literal,rejected,1
+document,yyjson,GCC,C++,skipped_number,rejected,1
+document,yyjson,GCC,C++,skipped_utf8,rejected,1
+document,yyjson,GCC,C++,string_surrogate,rejected,1
+document,yyjson,GCC,C++,string_utf8,rejected,1
+document,yyjson,GCC,C++,trailing,rejected,1
+document,yyjson (raw numbers),GCC,C++,skipped_bracket,rejected,1
+document,yyjson (raw numbers),GCC,C++,skipped_control,rejected,1
+document,yyjson (raw numbers),GCC,C++,skipped_literal,rejected,1
+document,yyjson (raw numbers),GCC,C++,skipped_number,rejected,1
+document,yyjson (raw numbers),GCC,C++,skipped_utf8,rejected,1
+document,yyjson (raw numbers),GCC,C++,string_surrogate,rejected,1
+document,yyjson (raw numbers),GCC,C++,string_utf8,rejected,1
+document,yyjson (raw numbers),GCC,C++,trailing,rejected,1
+decode,Glaze,Clang,C++,skipped_bracket,rejected,1
+decode,Glaze,Clang,C++,skipped_control,rejected,1
+decode,Glaze,Clang,C++,skipped_literal,rejected,1
+decode,Glaze,Clang,C++,skipped_number,rejected,1
+decode,Glaze,Clang,C++,skipped_utf8,rejected,1
+decode,Glaze,Clang,C++,string_surrogate,rejected,1
+decode,Glaze,Clang,C++,string_utf8,rejected,1
+decode,Glaze,Clang,C++,trailing,rejected,1
+document,RapidJSON,Clang,C++,skipped_bracket,rejected,1
+document,RapidJSON,Clang,C++,skipped_control,rejected,1
+document,RapidJSON,Clang,C++,skipped_literal,rejected,1
+document,RapidJSON,Clang,C++,skipped_number,rejected,1
+document,RapidJSON,Clang,C++,skipped_utf8,rejected,1
+document,RapidJSON,Clang,C++,string_surrogate,rejected,1
+document,RapidJSON,Clang,C++,string_utf8,rejected,1
+document,RapidJSON,Clang,C++,trailing,rejected,1
+decode,simdjson,Clang,C++,skipped_bracket,accepted,0
+decode,simdjson,Clang,C++,skipped_control,rejected,1
+decode,simdjson,Clang,C++,skipped_literal,accepted,0
+decode,simdjson,Clang,C++,skipped_number,accepted,0
+decode,simdjson,Clang,C++,skipped_utf8,rejected,1
+decode,simdjson,Clang,C++,string_surrogate,rejected,1
+decode,simdjson,Clang,C++,string_utf8,rejected,1
+decode,simdjson,Clang,C++,trailing,rejected,1
+document,simdjson,Clang,C++,skipped_bracket,rejected,1
+document,simdjson,Clang,C++,skipped_control,rejected,1
+document,simdjson,Clang,C++,skipped_literal,rejected,1
+document,simdjson,Clang,C++,skipped_number,rejected,1
+document,simdjson,Clang,C++,skipped_utf8,rejected,1
+document,simdjson,Clang,C++,string_surrogate,rejected,1
+document,simdjson,Clang,C++,string_utf8,rejected,1
+document,simdjson,Clang,C++,trailing,rejected,1
+document,yyjson,Clang,C++,skipped_bracket,rejected,1
+document,yyjson,Clang,C++,skipped_control,rejected,1
+document,yyjson,Clang,C++,skipped_literal,rejected,1
+document,yyjson,Clang,C++,skipped_number,rejected,1
+document,yyjson,Clang,C++,skipped_utf8,rejected,1
+document,yyjson,Clang,C++,string_surrogate,rejected,1
+document,yyjson,Clang,C++,string_utf8,rejected,1
+document,yyjson,Clang,C++,trailing,rejected,1
+document,yyjson (raw numbers),Clang,C++,skipped_bracket,rejected,1
+document,yyjson (raw numbers),Clang,C++,skipped_control,rejected,1
+document,yyjson (raw numbers),Clang,C++,skipped_literal,rejected,1
+document,yyjson (raw numbers),Clang,C++,skipped_number,rejected,1
+document,yyjson (raw numbers),Clang,C++,skipped_utf8,rejected,1
+document,yyjson (raw numbers),Clang,C++,string_surrogate,rejected,1
+document,yyjson (raw numbers),Clang,C++,string_utf8,rejected,1
+document,yyjson (raw numbers),Clang,C++,trailing,rejected,1
+decode,serde_json,rustc,Rust,skipped_bracket,rejected,1
+decode,serde_json,rustc,Rust,skipped_control,rejected,1
+decode,serde_json,rustc,Rust,skipped_literal,rejected,1
+decode,serde_json,rustc,Rust,skipped_number,rejected,1
+decode,serde_json,rustc,Rust,skipped_utf8,rejected,1
+decode,serde_json,rustc,Rust,string_surrogate,rejected,1
+decode,serde_json,rustc,Rust,string_utf8,rejected,1
+decode,serde_json,rustc,Rust,trailing,rejected,1
+document,serde_json,rustc,Rust,skipped_bracket,rejected,1
+document,serde_json,rustc,Rust,skipped_control,rejected,1
+document,serde_json,rustc,Rust,skipped_literal,rejected,1
+document,serde_json,rustc,Rust,skipped_number,rejected,1
+document,serde_json,rustc,Rust,skipped_utf8,rejected,1
+document,serde_json,rustc,Rust,string_surrogate,rejected,1
+document,serde_json,rustc,Rust,string_utf8,rejected,1
+document,serde_json,rustc,Rust,trailing,rejected,1
+tokenize,serde_json,rustc,Rust,skipped_bracket,rejected,1
+tokenize,serde_json,rustc,Rust,skipped_control,rejected,1
+tokenize,serde_json,rustc,Rust,skipped_literal,rejected,1
+tokenize,serde_json,rustc,Rust,skipped_number,rejected,1
+tokenize,serde_json,rustc,Rust,skipped_utf8,rejected,1
+tokenize,serde_json,rustc,Rust,string_surrogate,rejected,1
+tokenize,serde_json,rustc,Rust,string_utf8,rejected,1
+tokenize,serde_json,rustc,Rust,trailing,rejected,1
+decode,simd-json,rustc,Rust,skipped_bracket,rejected,1
+decode,simd-json,rustc,Rust,skipped_control,rejected,1
+decode,simd-json,rustc,Rust,skipped_literal,rejected,1
+decode,simd-json,rustc,Rust,skipped_number,rejected,1
+decode,simd-json,rustc,Rust,skipped_utf8,rejected,1
+decode,simd-json,rustc,Rust,string_surrogate,rejected,1
+decode,simd-json,rustc,Rust,string_utf8,rejected,1
+decode,simd-json,rustc,Rust,trailing,rejected,1
+document,simd-json,rustc,Rust,skipped_bracket,rejected,1
+document,simd-json,rustc,Rust,skipped_control,rejected,1
+document,simd-json,rustc,Rust,skipped_literal,rejected,1
+document,simd-json,rustc,Rust,skipped_number,rejected,1
+document,simd-json,rustc,Rust,skipped_utf8,rejected,1
+document,simd-json,rustc,Rust,string_surrogate,rejected,1
+document,simd-json,rustc,Rust,string_utf8,rejected,1
+document,simd-json,rustc,Rust,trailing,rejected,1
+decode,sonic-rs,rustc,Rust,skipped_bracket,rejected,1
+decode,sonic-rs,rustc,Rust,skipped_control,rejected,1
+decode,sonic-rs,rustc,Rust,skipped_literal,rejected,1
+decode,sonic-rs,rustc,Rust,skipped_number,rejected,1
+decode,sonic-rs,rustc,Rust,skipped_utf8,rejected,1
+decode,sonic-rs,rustc,Rust,string_surrogate,rejected,1
+decode,sonic-rs,rustc,Rust,string_utf8,rejected,1
+decode,sonic-rs,rustc,Rust,trailing,rejected,1
+document,sonic-rs,rustc,Rust,skipped_bracket,rejected,1
+document,sonic-rs,rustc,Rust,skipped_control,rejected,1
+document,sonic-rs,rustc,Rust,skipped_literal,rejected,1
+document,sonic-rs,rustc,Rust,skipped_number,rejected,1
+document,sonic-rs,rustc,Rust,skipped_utf8,rejected,1
+document,sonic-rs,rustc,Rust,string_surrogate,rejected,1
+document,sonic-rs,rustc,Rust,string_utf8,rejected,1
+document,sonic-rs,rustc,Rust,trailing,rejected,1
+loads,json (stdlib),CPython 3.14,Python,skipped_bracket,rejected,1
+loads,json (stdlib),CPython 3.14,Python,skipped_control,rejected,1
+loads,json (stdlib),CPython 3.14,Python,skipped_literal,rejected,1
+loads,json (stdlib),CPython 3.14,Python,skipped_number,rejected,1
+loads,json (stdlib),CPython 3.14,Python,skipped_utf8,rejected,1
+loads,json (stdlib),CPython 3.14,Python,string_surrogate,accepted,0
+loads,json (stdlib),CPython 3.14,Python,string_utf8,rejected,1
+loads,json (stdlib),CPython 3.14,Python,trailing,rejected,1
+loads,json-zig,CPython 3.14,Python,skipped_bracket,rejected,1
+loads,json-zig,CPython 3.14,Python,skipped_control,rejected,1
+loads,json-zig,CPython 3.14,Python,skipped_literal,rejected,1
+loads,json-zig,CPython 3.14,Python,skipped_number,rejected,1
+loads,json-zig,CPython 3.14,Python,skipped_utf8,rejected,1
+loads,json-zig,CPython 3.14,Python,string_surrogate,rejected,1
+loads,json-zig,CPython 3.14,Python,string_utf8,rejected,1
+loads,json-zig,CPython 3.14,Python,trailing,rejected,1
+loads,msgspec,CPython 3.14,Python,skipped_bracket,rejected,1
+loads,msgspec,CPython 3.14,Python,skipped_control,rejected,1
+loads,msgspec,CPython 3.14,Python,skipped_literal,rejected,1
+loads,msgspec,CPython 3.14,Python,skipped_number,rejected,1
+loads,msgspec,CPython 3.14,Python,skipped_utf8,rejected,1
+loads,msgspec,CPython 3.14,Python,string_surrogate,rejected,1
+loads,msgspec,CPython 3.14,Python,string_utf8,rejected,1
+loads,msgspec,CPython 3.14,Python,trailing,rejected,1
+loads,orjson,CPython 3.14,Python,skipped_bracket,rejected,1
+loads,orjson,CPython 3.14,Python,skipped_control,rejected,1
+loads,orjson,CPython 3.14,Python,skipped_literal,rejected,1
+loads,orjson,CPython 3.14,Python,skipped_number,rejected,1
+loads,orjson,CPython 3.14,Python,skipped_utf8,rejected,1
+loads,orjson,CPython 3.14,Python,string_surrogate,rejected,1
+loads,orjson,CPython 3.14,Python,string_utf8,rejected,1
+loads,orjson,CPython 3.14,Python,trailing,rejected,1
+loads,pysimdjson,CPython 3.14,Python,skipped_bracket,rejected,1
+loads,pysimdjson,CPython 3.14,Python,skipped_control,rejected,1
+loads,pysimdjson,CPython 3.14,Python,skipped_literal,rejected,1
+loads,pysimdjson,CPython 3.14,Python,skipped_number,rejected,1
+loads,pysimdjson,CPython 3.14,Python,skipped_utf8,rejected,1
+loads,pysimdjson,CPython 3.14,Python,string_surrogate,rejected,1
+loads,pysimdjson,CPython 3.14,Python,string_utf8,rejected,1
+loads,pysimdjson,CPython 3.14,Python,trailing,rejected,1
+loads,python-rapidjson,CPython 3.14,Python,skipped_bracket,rejected,1
+loads,python-rapidjson,CPython 3.14,Python,skipped_control,rejected,1
+loads,python-rapidjson,CPython 3.14,Python,skipped_literal,rejected,1
+loads,python-rapidjson,CPython 3.14,Python,skipped_number,rejected,1
+loads,python-rapidjson,CPython 3.14,Python,skipped_utf8,rejected,1
+loads,python-rapidjson,CPython 3.14,Python,string_surrogate,rejected,1
+loads,python-rapidjson,CPython 3.14,Python,string_utf8,rejected,1
+loads,python-rapidjson,CPython 3.14,Python,trailing,rejected,1
+loads,ujson,CPython 3.14,Python,skipped_bracket,rejected,1
+loads,ujson,CPython 3.14,Python,skipped_control,accepted,1
+loads,ujson,CPython 3.14,Python,skipped_literal,rejected,1
+loads,ujson,CPython 3.14,Python,skipped_number,accepted,1
+loads,ujson,CPython 3.14,Python,skipped_utf8,rejected,1
+loads,ujson,CPython 3.14,Python,string_surrogate,accepted,0
+loads,ujson,CPython 3.14,Python,string_utf8,rejected,1
+loads,ujson,CPython 3.14,Python,trailing,rejected,1

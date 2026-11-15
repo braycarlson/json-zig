@@ -1,0 +1,17 @@
+parameter-exempt-types = [
+    "Attempt",
+    "Cell",
+    "Chart",
+    "Checkout",
+    "Results",
+    "Series",
+    "Subject",
+    "Theme",
+]
+select = ["ALL"]
+
+[extend-per-file-ignores]
+"bench/**/*.py" = ["TS004"]
+"bench/drivers/rust/src/models.rs" = ["TS037"]
+"bench/drivers/zig/models.zig" = ["TS025", "TS037"]
+"tools/wasi_run.mjs" = ["TS032", "TS037"]

@@ -1,0 +1,7 @@
+.env
+.tigerstyle_cache/
+.zig-cache/
+__pycache__/
+bench/cache/
+zig-out/
+zig-pkg/
